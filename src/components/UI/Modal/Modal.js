@@ -6,7 +6,6 @@ import { Fragment } from 'react';
 import classes from './Modal.module.scss';
 
 const Backdrop = props => {
-  console.log(props);
   return <div className={classes.backdrop} onClick={props.onClick} />;
 };
 
